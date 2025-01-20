@@ -1,0 +1,41 @@
+https://medium.com/@dckjeremy.zip/what-happens-when-you-type-https-www-google-com-in-your-browser-and-press-enter-3b30989514e8
+
+
+-----------------------------
+
+
+
+What happens when you type "https://www.google.com" in your browser and press Enter?
+
+1. - 2. [DNS - Domain Name System]
+The very first step when we press Enter is to translate the domain name into an IP address.
+It first checks if the corresponding IP address is present in its cache.
+If the browser does not have a response, it will send a request to the DNS to find the IP address.
+
+3. [TCP/IP]
+Once the IP address is obtained, the browser opens a connection with the web server.
+
+4. [Firewall]
+During transmission, the request crosses several firewalls.
+This allows to filter requests and unblock any malicious traffic.
+
+5. [SSL/TLS]
+When we use an "https", the browser requests an SSL certificate from the server.
+A secure connection is then used between the client and the server, in order to encrypt the transmitted data.
+
+6. [Load Balancer]
+This helps balance the server load, by redirecting requests to the least loaded server.
+
+7. [Web Server]
+The web server processes the request and determines which files to return to the client.
+This can be HTML, CSS, JavaScript, images, etc.
+
+8. [Application Server]
+If the request requires dynamic data, the web server sends the request to the application server which will process the data and perform the necessary logic.
+This can be a database server, a file server, etc.
+
+9. [Database]
+If the request requires data stored in a database, the database server will process the request and return the data to the application server.
+
+10. [Response]
+The web server sends the response back to the client, which displays the web page on the browser.
